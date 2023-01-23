@@ -2,6 +2,8 @@
 """Database module, including the SQLAlchemy database object and DB-related utilities."""
 from typing import Optional, Type, TypeVar
 
+from sqlalchemy import *
+
 from .compat import basestring
 from .extensions import db
 
