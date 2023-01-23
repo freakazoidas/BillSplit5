@@ -1,0 +1,6 @@
+[run]
+source = BillSplit
+omit = 
+    tests/*
+    autoapp.py
+
